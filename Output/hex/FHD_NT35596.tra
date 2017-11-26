@@ -1,0 +1,71 @@
+*** Creating Trace Output File '.\Output\hex\FHD_NT35596.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\hex\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\output\hex\main.o"'
+### List of Objects: adding '".\output\hex\stm32f10x_it.o"'
+### List of Objects: adding '".\output\hex\systick.o"'
+### List of Objects: adding '".\output\hex\ssd2828.o"'
+### List of Objects: adding '".\output\hex\in_img.o"'
+### List of Objects: adding '".\USER\key.lib"'
+### List of Objects: adding '".\output\hex\showtext.o"'
+### List of Objects: adding '".\output\hex\gxnussd2828.o"'
+### List of Objects: adding '".\output\hex\bmp.o"'
+### List of Objects: adding '".\output\hex\bsp_sdio_sdcard.o"'
+### List of Objects: adding '".\output\hex\bsp_usart1.o"'
+### List of Objects: adding '".\output\hex\sdcard.o"'
+### List of Objects: adding '".\output\hex\user.o"'
+### List of Objects: adding '".\output\hex\gxnu.o"'
+### List of Objects: adding '".\output\hex\delay.o"'
+### List of Objects: adding '".\output\hex\stm32f10x_fsmc.o"'
+### List of Objects: adding '".\output\hex\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\hex\stm32f10x_sdio.o"'
+### List of Objects: adding '".\output\hex\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\hex\stm32f10x_dma.o"'
+### List of Objects: adding '".\output\hex\misc.o"'
+### List of Objects: adding '".\output\hex\stm32f10x_tim.o"'
+### List of Objects: adding '".\output\hex\stm32f10x_spi.o"'
+### List of Objects: adding '".\output\hex\stm32f10x_i2c.o"'
+### List of Objects: adding '".\output\hex\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\hex\stm32f10x_flash.o"'
+### List of Objects: adding '".\output\hex\stm32f10x_exti.o"'
+### List of Objects: adding '".\output\hex\core_cm3.o"'
+### List of Objects: adding '".\output\hex\system_stm32f10x.o"'
+### List of Objects: adding '".\output\hex\diskio.o"'
+### List of Objects: adding '".\output\hex\ff.o"'
+### List of Objects: adding '".\LCD_DRV\lcd_drv.lib"'
+### List of Objects: adding '".\output\hex\usb_core.o"'
+### List of Objects: adding '".\output\hex\usb_init.o"'
+### List of Objects: adding '".\output\hex\usb_int.o"'
+### List of Objects: adding '".\output\hex\usb_mem.o"'
+### List of Objects: adding '".\output\hex\usb_regs.o"'
+### List of Objects: adding '".\output\hex\usb_sil.o"'
+### List of Objects: adding '".\output\hex\hw_config.o"'
+### List of Objects: adding '".\output\hex\usb_desc.o"'
+### List of Objects: adding '".\output\hex\usb_endp.o"'
+### List of Objects: adding '".\output\hex\usb_istr.o"'
+### List of Objects: adding '".\output\hex\usb_prop.o"'
+### List of Objects: adding '".\output\hex\usb_pwr.o"'
+### List of Objects: adding '".\output\hex\pc_com.o"'
+### List of Objects: adding '".\output\hex\usmart.o"'
+### List of Objects: adding '".\output\hex\usmart_config.o"'
+### List of Objects: adding '".\output\hex\usmart_str.o"'
+### List of Objects: adding '".\output\hex\yt70f21x0.o"'
+### List of Objects: adding '".\output\hex\yt52f10a1.o"'
+### List of Objects: adding '".\output\hex\yt55f96a6.o"'
+### List of Objects: adding '".\output\hex\malloc.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\hex\startup_stm32f10x_hd.o" ".\output\hex\main.o" ".\output\hex\stm32f10x_it.o" ".\output\hex\systick.o" ".\output\hex\ssd2828.o" ".\output\hex\in_img.o" ".\USER\key.lib" ".\output\hex\showtext.o" ".\output\hex\gxnussd2828.o" ".\output\hex\bmp.o" ".\output\hex\bsp_sdio_sdcard.o" ".\output\hex\bsp_usart1.o" ".\output\hex\sdcard.o" ".\output\hex\user.o" ".\output\hex\gxnu.o" ".\output\hex\delay.o" ".\output\hex\stm32f10x_fsmc.o" ".\output\hex\stm32f10x_gpio.o" ".\output\hex\stm32f10x_sdio.o" ".\output\hex\stm32f10x_usart.o" ".\output\hex\stm32f10x_dma.o" ".\output\hex\misc.o" ".\output\hex\stm32f10x_tim.o" ".\output\hex\stm32f10x_spi.o" ".\output\hex\stm32f10x_i2c.o" ".\output\hex\stm32f10x_rcc.o" ".\output\hex\stm32f10x_flash.o" ".\output\hex\stm32f10x_exti.o" ".\output\hex\core_cm3.o" ".\output\hex\system_stm32f10x.o" ".\output\hex\diskio.o" ".\output\hex\ff.o" ".\LCD_DRV\lcd_drv.lib" ".\output\hex\usb_core.o" ".\output\hex\usb_init.o" ".\output\hex\usb_int.o" ".\output\hex\usb_mem.o" ".\output\hex\usb_regs.o" ".\output\hex\usb_sil.o" ".\output\hex\hw_config.o" ".\output\hex\usb_desc.o" ".\output\hex\usb_endp.o" ".\output\hex\usb_istr.o" ".\output\hex\usb_prop.o" ".\output\hex\usb_pwr.o" ".\output\hex\pc_com.o" ".\output\hex\usmart.o" ".\output\hex\usmart_config.o" ".\output\hex\usmart_str.o" ".\output\hex\yt70f21x0.o" ".\output\hex\yt52f10a1.o" ".\output\hex\yt55f96a6.o" ".\output\hex\malloc.o" --library_type=microlib --strict --scatter ".\Output\hex\FHD_NT35596.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listing\FHD_NT35596.map" -o ".\Output\hex\FHD_NT35596.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\hex\FHD_NT35596.axf'
+### ADS-LD Command File: '.\Output\hex\FHD_NT35596.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\hex\FHD_NT35596.lnp', Handle=0x00000970
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\hex\FHD_NT35596.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
