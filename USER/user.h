@@ -37,7 +37,7 @@
 //#define YT52F10A1
 //#define YT52F12X0
 #define YT55F96A6
-
+//#define TD4310
 
 extern UINT uTimerH,uPreTimerH,uTimerL,uTimerPicH,uTimerPicL;
 extern BYTE BurnStart,picDisBeforeBurn,u8PicIndex;

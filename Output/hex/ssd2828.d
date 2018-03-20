@@ -2,7 +2,7 @@
 .\Output\hex\ssd2828.o: USER\ssd2828.h
 .\Output\hex\ssd2828.o: .\CMSIS\stm32f10x.h
 .\Output\hex\ssd2828.o: .\CMSIS\core_cm3.h
-.\Output\hex\ssd2828.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\ssd2828.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\ssd2828.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\ssd2828.o: .\USER\stm32f10x_conf.h
 .\Output\hex\ssd2828.o: .\FWlib\inc\stm32f10x_dma.h

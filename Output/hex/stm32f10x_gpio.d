@@ -2,7 +2,7 @@
 .\Output\hex\stm32f10x_gpio.o: .\FWlib\inc\stm32f10x_gpio.h
 .\Output\hex\stm32f10x_gpio.o: .\CMSIS\stm32f10x.h
 .\Output\hex\stm32f10x_gpio.o: .\CMSIS\core_cm3.h
-.\Output\hex\stm32f10x_gpio.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\stm32f10x_gpio.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\stm32f10x_gpio.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\stm32f10x_gpio.o: .\USER\stm32f10x_conf.h
 .\Output\hex\stm32f10x_gpio.o: .\FWlib\inc\stm32f10x_dma.h

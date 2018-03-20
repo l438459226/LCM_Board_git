@@ -43,7 +43,7 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>.\Output\</OutputDirectory>
+          <OutputDirectory>.\Output\hex\</OutputDirectory>
           <OutputName>FHD_NT35596</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>

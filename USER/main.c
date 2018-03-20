@@ -8,9 +8,9 @@
 
 struct load_pic
 {
-	u8 pictype;
+	u32 pictype;
 	u32 color;
-	char name[24];		//图片名字	 
+	char name[32];		//图片名字	 
 };	
 
 struct load_pic loadpic[]	= 
@@ -66,45 +66,25 @@ u8 pic_load(u8 Display)
 				r = loadpic[i].color>>16;
 				Img_Full(r,g,b);		//
 		   break;
-
 		   case 1:	Img_CT();break;
-
 		   case 2:	Img_Chcker58();	break;
-
 		   case 3:	Img_Box(); break;
-
 		   case 4:	Img_Gray256_V(); break;
-
 		   case 5:	Img_Gray256_H(); break;
-
 		   case 6:	Img_RED256_H();	break;
-
 		   case 7:	Img_GREEN256_H(); break;
-
 		   case 8:	Img_BLUE256_H(); break;
-
 		   case 9:	Img_RED256_V();	break;
-
 		   case 10:	Img_GREEN256_V(); break;
-
 		   case 11:	Img_BLUE256_V(); break;
-
 		   case 12:	Img_ColorBar();	break;
-
 		   case 13:	Img_ColorBar(); break;
-
 		   case 14:	Flicker(); break;
-
 		   case 15:	MAX_Current(); break;
-
 		   case 16:	two_windows(); break;
-
 		   case 253:OutPutSdCardFileRollingover(loadpic[i].name); break;
-
 		   case 254:OutPutSdCardFileOverturn(loadpic[i].name); break;
-
 		   case 255:OutPutSdCardFile(loadpic[i].name); break;
-
 		   default :  	break;
 		}
 	 	if(Display)	{LcdDrvDisplayFrame(i);	frame_delay_ms[i] = 1000;}
@@ -141,29 +121,29 @@ int main(void)
    	Delay_ms(200);
 	SDcard_init();		//SD Init  
 	LCD_SSD_SET();		//设置lcd porch值
-  	DisplayON_PanelInit();	  //初始化SSD2828  初始化模组
-	printf("ssd:0x%x\r\n",ssd_rdata(0xb0));
+  DisplayON_PanelInit();	  //初始化SSD2828  初始化模组
+	printf("\r\nssd:0x%x\r\n",ssd_rdata(0xb0));
 	usb_hid_mass_init();	//hid
 	Delay_ms(800);	
 	
 	frame_max = pic_load(1); //加载图片时显示图片
 
 	datemp = my_mem_perused(SRAMIN);
-	printf("perused1:%d",i);
-	printf("perused2:%d",datemp);
+	printf("perused1:%d\n",i);
+	printf("perused2:%d\n",datemp);
 
 	srambuf = mymalloc(SRAMIN,1024*20);	
 	i = my_mem_perused(SRAMIN);
-	printf("i perused:%d",i);
+	printf("i perused:%d\n",i);
 	myfree(SRAMIN,srambuf);
    
 	datemp = my_mem_perused(SRAMIN);
 	printf("free perused:%d",datemp);
 	
 	SD_Init();	
-	printfk(0,0,FONT1632,GREEN,RED,1,"ssd:0x%x ",ssd_rdata(0xb0));
-	printfk(0,1,FONT1632,GREEN,RED,1,"mem_perused:%d ",i);
-	printfk(0,2,FONT1632,GREEN,RED,1,"mem_perused:%d ",datemp);
+// 	printfk(0,0,FONT1632,GREEN,RED,1,"ssd:0x%x \n",ssd_rdata(0xb0));
+// 	printfk(0,1,FONT1632,GREEN,RED,1,"mem_perused:%d \n",i);
+// 	printfk(0,2,FONT1632,GREEN,RED,1,"mem_perused:%d \n",datemp);
 	while (1)
 	{
 		usmart_dev.scan();

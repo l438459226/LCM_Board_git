@@ -5,7 +5,7 @@
 .\Output\hex\ff.o: .\USER\config.h
 .\Output\hex\ff.o: .\CMSIS\stm32f10x.h
 .\Output\hex\ff.o: .\CMSIS\core_cm3.h
-.\Output\hex\ff.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\ff.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\ff.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\ff.o: .\USER\stm32f10x_conf.h
 .\Output\hex\ff.o: .\FWlib\inc\stm32f10x_dma.h

@@ -592,8 +592,8 @@ void usb_port_set(u8 enable)
 void InitMipi_PanelInit(void)
 {	
 	SSD2828Init();	//
-  	SSD2828_IC1_CS_0();	//IC1靠C73位置   U5	  0为选中IC  1为不选中
-	SSD2828_IC2_CS_0();	//IC2靠按键位置	 U6
+  SSD2828_IC1_CS_0();	//IC1靠C73位置   U5	  0为选中IC  1为不选中
+	SSD2828_IC2_CS_1();	//IC2靠按键位置	 U6
 	
 	SSD_LANE(Dsi_LANE,Dsi_mbps);//
 
@@ -601,13 +601,16 @@ void InitMipi_PanelInit(void)
 	LCD_INIT();
 
 	DCS_Short_Write_NP(0x11);
-	Delay_ms(150);
+	Delay_ms(120);
+	DCS_Short_Write_1P(0xB0,0x04);
+	DCS_Long_Write_5P(0xDE,0x01,0x00,0x0F,0xFF,0x05);
 	DCS_Short_Write_NP(0x29);
-	Delay_ms(50);
+	Delay_ms(10);
+
 
 	SSD2828_IC2_CS_1();//不选IC2
-	DCS_Short_Read_NP(0x09, 1, lbuffer);//GP_R
-	printf(" ID:0x%X ",lbuffer[0]);
+	DCS_Short_Read_NP(0xDE, 6, lbuffer);//GP_R
+	printf("\r\n 0xDE:0x%X 0x%X 0x%X 0x%X 0x%X 0x%X\r\n",lbuffer[0],lbuffer[1],lbuffer[2],lbuffer[3],lbuffer[4],lbuffer[5]);
 /*
 	GP_SP(1);
 	W_D(0x11);		   	  //DCS_Short_Write_NP(0x11);
@@ -617,6 +620,7 @@ void InitMipi_PanelInit(void)
 	Delay_ms(50); 		
 */
 	SSD_MODE(0,1);
+
 }
 
 
@@ -643,6 +647,7 @@ void DisplayON_PanelInit(void)
 	LcdDrv_RGB_ON();    			//开启RGB时序
 
 	GPIO_SetBits(GPIOA, GPIO_Pin_1);   //BL 开
+	//while(1);
 }
 
 

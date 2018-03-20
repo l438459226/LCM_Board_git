@@ -2,7 +2,7 @@
 .\Output\hex\pc_com.o: .\USER\ssd2828.h
 .\Output\hex\pc_com.o: .\CMSIS\stm32f10x.h
 .\Output\hex\pc_com.o: .\CMSIS\core_cm3.h
-.\Output\hex\pc_com.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\pc_com.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\pc_com.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\pc_com.o: .\USER\stm32f10x_conf.h
 .\Output\hex\pc_com.o: .\FWlib\inc\stm32f10x_dma.h
@@ -20,10 +20,10 @@
 .\Output\hex\pc_com.o: .\SYSTEM\delay\delay.h
 .\Output\hex\pc_com.o: .\LCD_DRV\lcd_drv.h
 .\Output\hex\pc_com.o: .\USER\User\usart\bsp_usart1.h
-.\Output\hex\pc_com.o: E:\Keil_v5\ARM\RV31\INC\stdio.h
+.\Output\hex\pc_com.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdio.h
 .\Output\hex\pc_com.o: .\USER\gxnu.h
 .\Output\hex\pc_com.o: .\USER\user.h
-.\Output\hex\pc_com.o: E:\Keil_v5\ARM\RV31\INC\string.h
+.\Output\hex\pc_com.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\string.h
 .\Output\hex\pc_com.o: .\LCD_DRV\power_ctrl.h
 .\Output\hex\pc_com.o: .\USER\in_img.h
 .\Output\hex\pc_com.o: .\USER\key.h
@@ -35,7 +35,7 @@
 .\Output\hex\pc_com.o: .\USER\showtext.h
 .\Output\hex\pc_com.o: .\USER\gxnussd2828.h
 .\Output\hex\pc_com.o: .\USER\bmp.h
-.\Output\hex\pc_com.o: E:\Keil_v5\ARM\RV31\INC\stdarg.h
+.\Output\hex\pc_com.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdarg.h
 .\Output\hex\pc_com.o: .\USER\User\sdcard\bsp_sdio_sdcard.h
 .\Output\hex\pc_com.o: .\HID\hw_config.h
 .\Output\hex\pc_com.o: .\HID\platform_config.h

@@ -1,11 +1,11 @@
 .\Output\hex\diskio.o: fatfs\diskio.c
-.\Output\hex\diskio.o: E:\Keil_v5\ARM\RV31\INC\string.h
+.\Output\hex\diskio.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\string.h
 .\Output\hex\diskio.o: fatfs\diskio.h
 .\Output\hex\diskio.o: fatfs\integer.h
 .\Output\hex\diskio.o: .\USER\sdcard.h
 .\Output\hex\diskio.o: .\CMSIS\stm32f10x.h
 .\Output\hex\diskio.o: .\CMSIS\core_cm3.h
-.\Output\hex\diskio.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\diskio.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\diskio.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\diskio.o: .\USER\stm32f10x_conf.h
 .\Output\hex\diskio.o: .\FWlib\inc\stm32f10x_dma.h

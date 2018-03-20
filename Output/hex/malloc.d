@@ -3,7 +3,7 @@
 .\Output\hex\malloc.o: .\USER\user.h
 .\Output\hex\malloc.o: .\CMSIS\stm32f10x.h
 .\Output\hex\malloc.o: .\CMSIS\core_cm3.h
-.\Output\hex\malloc.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\malloc.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\malloc.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\malloc.o: .\USER\stm32f10x_conf.h
 .\Output\hex\malloc.o: .\FWlib\inc\stm32f10x_dma.h
@@ -17,7 +17,7 @@
 .\Output\hex\malloc.o: .\FWlib\inc\stm32f10x_tim.h
 .\Output\hex\malloc.o: .\FWlib\inc\stm32f10x_usart.h
 .\Output\hex\malloc.o: .\FWlib\inc\misc.h
-.\Output\hex\malloc.o: E:\Keil_v5\ARM\RV31\INC\string.h
+.\Output\hex\malloc.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\string.h
 .\Output\hex\malloc.o: .\LCD_DRV\lcd_drv.h
 .\Output\hex\malloc.o: .\USER\systick.h
 .\Output\hex\malloc.o: .\SYSTEM\delay\delay.h
@@ -30,11 +30,11 @@
 .\Output\hex\malloc.o: .\fatfs\integer.h
 .\Output\hex\malloc.o: .\fatfs\diskio.h
 .\Output\hex\malloc.o: .\LCD_DRV\l1w.h
-.\Output\hex\malloc.o: E:\Keil_v5\ARM\RV31\INC\stdio.h
+.\Output\hex\malloc.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdio.h
 .\Output\hex\malloc.o: .\USER\showtext.h
 .\Output\hex\malloc.o: .\USER\gxnussd2828.h
 .\Output\hex\malloc.o: .\USER\bmp.h
-.\Output\hex\malloc.o: E:\Keil_v5\ARM\RV31\INC\stdarg.h
+.\Output\hex\malloc.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdarg.h
 .\Output\hex\malloc.o: .\USER\User\usart\bsp_usart1.h
 .\Output\hex\malloc.o: .\USER\User\sdcard\bsp_sdio_sdcard.h
 .\Output\hex\malloc.o: .\HID\hw_config.h

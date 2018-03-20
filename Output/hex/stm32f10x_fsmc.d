@@ -2,7 +2,7 @@
 .\Output\hex\stm32f10x_fsmc.o: .\FWlib\inc\stm32f10x_fsmc.h
 .\Output\hex\stm32f10x_fsmc.o: .\CMSIS\stm32f10x.h
 .\Output\hex\stm32f10x_fsmc.o: .\CMSIS\core_cm3.h
-.\Output\hex\stm32f10x_fsmc.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\stm32f10x_fsmc.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\stm32f10x_fsmc.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\stm32f10x_fsmc.o: .\USER\stm32f10x_conf.h
 .\Output\hex\stm32f10x_fsmc.o: .\FWlib\inc\stm32f10x_dma.h

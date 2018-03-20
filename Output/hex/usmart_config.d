@@ -3,7 +3,7 @@
 .\Output\hex\usmart_config.o: USER\User\USMART\usmart_str.h
 .\Output\hex\usmart_config.o: .\CMSIS\stm32f10x.h
 .\Output\hex\usmart_config.o: .\CMSIS\core_cm3.h
-.\Output\hex\usmart_config.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\usmart_config.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\usmart_config.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\usmart_config.o: .\USER\stm32f10x_conf.h
 .\Output\hex\usmart_config.o: .\FWlib\inc\stm32f10x_dma.h
@@ -20,9 +20,9 @@
 .\Output\hex\usmart_config.o: .\USER\systick.h
 .\Output\hex\usmart_config.o: .\SYSTEM\delay\delay.h
 .\Output\hex\usmart_config.o: .\USER\User\usart\bsp_usart1.h
-.\Output\hex\usmart_config.o: E:\Keil_v5\ARM\RV31\INC\stdio.h
+.\Output\hex\usmart_config.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdio.h
 .\Output\hex\usmart_config.o: .\USER\user.h
-.\Output\hex\usmart_config.o: E:\Keil_v5\ARM\RV31\INC\string.h
+.\Output\hex\usmart_config.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\string.h
 .\Output\hex\usmart_config.o: .\LCD_DRV\lcd_drv.h
 .\Output\hex\usmart_config.o: .\LCD_DRV\power_ctrl.h
 .\Output\hex\usmart_config.o: .\USER\ssd2828.h
@@ -36,7 +36,7 @@
 .\Output\hex\usmart_config.o: .\USER\showtext.h
 .\Output\hex\usmart_config.o: .\USER\gxnussd2828.h
 .\Output\hex\usmart_config.o: .\USER\bmp.h
-.\Output\hex\usmart_config.o: E:\Keil_v5\ARM\RV31\INC\stdarg.h
+.\Output\hex\usmart_config.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdarg.h
 .\Output\hex\usmart_config.o: .\USER\User\sdcard\bsp_sdio_sdcard.h
 .\Output\hex\usmart_config.o: .\HID\hw_config.h
 .\Output\hex\usmart_config.o: .\HID\platform_config.h

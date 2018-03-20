@@ -2,7 +2,7 @@
 .\Output\hex\in_img.o: USER\in_img.h
 .\Output\hex\in_img.o: .\CMSIS\stm32f10x.h
 .\Output\hex\in_img.o: .\CMSIS\core_cm3.h
-.\Output\hex\in_img.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\in_img.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\in_img.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\in_img.o: .\USER\stm32f10x_conf.h
 .\Output\hex\in_img.o: .\FWlib\inc\stm32f10x_dma.h

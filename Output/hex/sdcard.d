@@ -2,7 +2,7 @@
 .\Output\hex\sdcard.o: USER\sdcard.h
 .\Output\hex\sdcard.o: .\CMSIS\stm32f10x.h
 .\Output\hex\sdcard.o: .\CMSIS\core_cm3.h
-.\Output\hex\sdcard.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\sdcard.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\sdcard.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\sdcard.o: .\USER\stm32f10x_conf.h
 .\Output\hex\sdcard.o: .\FWlib\inc\stm32f10x_dma.h

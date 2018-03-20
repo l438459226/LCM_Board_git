@@ -1,2 +1,2 @@
 .\Output\hex\core_cm3.o: FWlib\CMSIS\core_cm3.c
-.\Output\hex\core_cm3.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\core_cm3.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h

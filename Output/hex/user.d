@@ -2,7 +2,7 @@
 .\Output\hex\user.o: USER\user.h
 .\Output\hex\user.o: .\CMSIS\stm32f10x.h
 .\Output\hex\user.o: .\CMSIS\core_cm3.h
-.\Output\hex\user.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\user.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\user.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\user.o: .\USER\stm32f10x_conf.h
 .\Output\hex\user.o: .\FWlib\inc\stm32f10x_dma.h
@@ -16,7 +16,7 @@
 .\Output\hex\user.o: .\FWlib\inc\stm32f10x_tim.h
 .\Output\hex\user.o: .\FWlib\inc\stm32f10x_usart.h
 .\Output\hex\user.o: .\FWlib\inc\misc.h
-.\Output\hex\user.o: E:\Keil_v5\ARM\RV31\INC\string.h
+.\Output\hex\user.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\string.h
 .\Output\hex\user.o: .\LCD_DRV\lcd_drv.h
 .\Output\hex\user.o: USER\systick.h
 .\Output\hex\user.o: .\SYSTEM\delay\delay.h
@@ -29,11 +29,11 @@
 .\Output\hex\user.o: .\fatfs\integer.h
 .\Output\hex\user.o: .\fatfs\diskio.h
 .\Output\hex\user.o: .\LCD_DRV\l1w.h
-.\Output\hex\user.o: E:\Keil_v5\ARM\RV31\INC\stdio.h
+.\Output\hex\user.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdio.h
 .\Output\hex\user.o: USER\showtext.h
 .\Output\hex\user.o: USER\gxnussd2828.h
 .\Output\hex\user.o: USER\bmp.h
-.\Output\hex\user.o: E:\Keil_v5\ARM\RV31\INC\stdarg.h
+.\Output\hex\user.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdarg.h
 .\Output\hex\user.o: .\USER\User\usart\bsp_usart1.h
 .\Output\hex\user.o: .\USER\User\sdcard\bsp_sdio_sdcard.h
 .\Output\hex\user.o: .\HID\hw_config.h

@@ -3,7 +3,7 @@
 .\Output\hex\gxnu.o: USER\user.h
 .\Output\hex\gxnu.o: .\CMSIS\stm32f10x.h
 .\Output\hex\gxnu.o: .\CMSIS\core_cm3.h
-.\Output\hex\gxnu.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\gxnu.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\gxnu.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\gxnu.o: .\USER\stm32f10x_conf.h
 .\Output\hex\gxnu.o: .\FWlib\inc\stm32f10x_dma.h
@@ -17,7 +17,7 @@
 .\Output\hex\gxnu.o: .\FWlib\inc\stm32f10x_tim.h
 .\Output\hex\gxnu.o: .\FWlib\inc\stm32f10x_usart.h
 .\Output\hex\gxnu.o: .\FWlib\inc\misc.h
-.\Output\hex\gxnu.o: E:\Keil_v5\ARM\RV31\INC\string.h
+.\Output\hex\gxnu.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\string.h
 .\Output\hex\gxnu.o: .\LCD_DRV\lcd_drv.h
 .\Output\hex\gxnu.o: USER\systick.h
 .\Output\hex\gxnu.o: .\SYSTEM\delay\delay.h
@@ -30,11 +30,11 @@
 .\Output\hex\gxnu.o: .\fatfs\integer.h
 .\Output\hex\gxnu.o: .\fatfs\diskio.h
 .\Output\hex\gxnu.o: .\LCD_DRV\l1w.h
-.\Output\hex\gxnu.o: E:\Keil_v5\ARM\RV31\INC\stdio.h
+.\Output\hex\gxnu.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdio.h
 .\Output\hex\gxnu.o: USER\showtext.h
 .\Output\hex\gxnu.o: USER\gxnussd2828.h
 .\Output\hex\gxnu.o: USER\bmp.h
-.\Output\hex\gxnu.o: E:\Keil_v5\ARM\RV31\INC\stdarg.h
+.\Output\hex\gxnu.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdarg.h
 .\Output\hex\gxnu.o: .\USER\User\usart\bsp_usart1.h
 .\Output\hex\gxnu.o: .\USER\User\sdcard\bsp_sdio_sdcard.h
 .\Output\hex\gxnu.o: .\HID\hw_config.h

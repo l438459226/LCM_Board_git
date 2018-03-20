@@ -2,7 +2,7 @@
 .\Output\hex\yt70f21x0.o: .\USER\user.h
 .\Output\hex\yt70f21x0.o: .\CMSIS\stm32f10x.h
 .\Output\hex\yt70f21x0.o: .\CMSIS\core_cm3.h
-.\Output\hex\yt70f21x0.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\yt70f21x0.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\yt70f21x0.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\yt70f21x0.o: .\USER\stm32f10x_conf.h
 .\Output\hex\yt70f21x0.o: .\FWlib\inc\stm32f10x_dma.h
@@ -16,7 +16,7 @@
 .\Output\hex\yt70f21x0.o: .\FWlib\inc\stm32f10x_tim.h
 .\Output\hex\yt70f21x0.o: .\FWlib\inc\stm32f10x_usart.h
 .\Output\hex\yt70f21x0.o: .\FWlib\inc\misc.h
-.\Output\hex\yt70f21x0.o: E:\Keil_v5\ARM\RV31\INC\string.h
+.\Output\hex\yt70f21x0.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\string.h
 .\Output\hex\yt70f21x0.o: .\LCD_DRV\lcd_drv.h
 .\Output\hex\yt70f21x0.o: .\USER\systick.h
 .\Output\hex\yt70f21x0.o: .\SYSTEM\delay\delay.h
@@ -29,11 +29,11 @@
 .\Output\hex\yt70f21x0.o: .\fatfs\integer.h
 .\Output\hex\yt70f21x0.o: .\fatfs\diskio.h
 .\Output\hex\yt70f21x0.o: .\LCD_DRV\l1w.h
-.\Output\hex\yt70f21x0.o: E:\Keil_v5\ARM\RV31\INC\stdio.h
+.\Output\hex\yt70f21x0.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdio.h
 .\Output\hex\yt70f21x0.o: .\USER\showtext.h
 .\Output\hex\yt70f21x0.o: .\USER\gxnussd2828.h
 .\Output\hex\yt70f21x0.o: .\USER\bmp.h
-.\Output\hex\yt70f21x0.o: E:\Keil_v5\ARM\RV31\INC\stdarg.h
+.\Output\hex\yt70f21x0.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdarg.h
 .\Output\hex\yt70f21x0.o: .\USER\User\usart\bsp_usart1.h
 .\Output\hex\yt70f21x0.o: .\USER\User\sdcard\bsp_sdio_sdcard.h
 .\Output\hex\yt70f21x0.o: .\HID\hw_config.h

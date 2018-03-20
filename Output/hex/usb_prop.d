@@ -4,7 +4,7 @@
 .\Output\hex\usb_prop.o: .\HID\platform_config.h
 .\Output\hex\usb_prop.o: .\CMSIS\stm32f10x.h
 .\Output\hex\usb_prop.o: .\CMSIS\core_cm3.h
-.\Output\hex\usb_prop.o: E:\Keil_v5\ARM\RV31\INC\stdint.h
+.\Output\hex\usb_prop.o: D:\ARM\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\Output\hex\usb_prop.o: .\CMSIS\system_stm32f10x.h
 .\Output\hex\usb_prop.o: .\USER\stm32f10x_conf.h
 .\Output\hex\usb_prop.o: .\FWlib\inc\stm32f10x_dma.h
